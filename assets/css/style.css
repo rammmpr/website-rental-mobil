@@ -15,7 +15,7 @@
    * colors
    */
 
-  /* --pale-purple-pantone: hsl(262, 63%, 92%);
+  --pale-purple-pantone: hsl(262, 63%, 92%);
   --medium-sea-green: hsl(152, 63%, 43%);
   --lavender-blush: hsl(336, 35%, 92%);
   --carolina-blue: hsl(204, 91%, 53%);
@@ -36,17 +36,17 @@
   --red-salsa: hsl(0, 79%, 63%);
   --sapphire: hsl(211, 100%, 35%);
   --manatee: hsl(219, 14%, 60%);
-  --white: hsl(0, 0%, 100%); */
+  --white: hsl(0, 0%, 100%);
 
-  --pale-purple-pantone: hsl(262, 63%, 92%);
+  /* --pale-purple-pantone: hsl(262, 63%, 92%);
   --medium-sea-green: hsl(152, 63%, 43%);
   --lavender-blush: rgb(91, 188, 255);
   --carolina-blue: hsl(203, 100%, 50%);
   --columbia-blue: rgb(91, 188, 255);
-  --alice-blue-1: rgb(139, 207, 255); /* Utama */
+  --alice-blue-1: rgb(139, 207, 255); 
   --alice-blue-2: rgba(177, 222, 255, 0.628);
   --alice-blue-3: rgba(130, 203, 255, 0.712);
-  --alice-blue-4: rgb(134, 203, 252); /* Bottom */
+  --alice-blue-4: rgb(134, 203, 252);
   --independence: hsl(220, 16%, 22%);
   --deep-cerise: hsl(329, 63%, 52%);
   --eerie-black: hsl(210, 11%, 15%);
@@ -62,7 +62,7 @@
   --white: rgb(177, 223, 255);
   --text-white: rgb(255, 255, 255);
 
-  --gradient: linear-gradient(to top, rgb(177, 223, 255), rgb(182, 224, 255));
+  --gradient: linear-gradient(to top, rgb(177, 223, 255), rgb(182, 224, 255)); */
 
   /**
    * typography
