@@ -1011,7 +1011,7 @@ a {
 
 .footer-list:last-of-type {
   width: 100%;
-  column-count: 2;
+  column-count: 1;
 }
 
 .footer-list-title {
@@ -1069,6 +1069,11 @@ a {
 
 .copyright > a:is(:hover, :focus) {
   color: var(--carolina-blue);
+}
+
+.google-maps {
+  height: 150px;
+  width: 100%;
 }
 
 /*-----------------------------------*\
