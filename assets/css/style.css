@@ -15,7 +15,7 @@
    * colors
    */
 
-  --pale-purple-pantone: hsl(262, 63%, 92%);
+  /* --pale-purple-pantone: hsl(262, 63%, 92%);
   --medium-sea-green: hsl(152, 63%, 43%);
   --lavender-blush: hsl(336, 35%, 92%);
   --carolina-blue: hsl(204, 91%, 53%);
@@ -36,9 +36,33 @@
   --red-salsa: hsl(0, 79%, 63%);
   --sapphire: hsl(211, 100%, 35%);
   --manatee: hsl(219, 14%, 60%);
-  --white: hsl(0, 0%, 100%);
+  --white: hsl(0, 0%, 100%); */
 
-  --gradient: linear-gradient(to top, var(--alice-blue-2), var(--alice-blue-3));
+  --pale-purple-pantone: hsl(262, 63%, 92%);
+  --medium-sea-green: hsl(152, 63%, 43%);
+  --lavender-blush: rgb(91, 188, 255);
+  --carolina-blue: hsl(203, 100%, 50%);
+  --columbia-blue: rgb(91, 188, 255);
+  --alice-blue-1: rgb(139, 207, 255); /* Utama */
+  --alice-blue-2: rgba(177, 222, 255, 0.628);
+  --alice-blue-3: rgba(130, 203, 255, 0.712);
+  --alice-blue-4: rgb(134, 203, 252); /* Bottom */
+  --independence: hsl(220, 16%, 22%);
+  --deep-cerise: hsl(329, 63%, 52%);
+  --eerie-black: hsl(210, 11%, 15%);
+  --space-cadet: hsl(240, 22%, 25%);
+  --blue-jeans: hsl(204, 80%, 63%);
+  --slate-blue: hsl(262, 60%, 57%);
+  --beau-blue: hsl(208, 86%, 92%);
+  --honey-dew: hsl(152, 48%, 89%);
+  --mimi-pink: hsl(329, 63%, 90%);
+  --red-salsa: hsl(0, 79%, 63%);
+  --sapphire: hsl(211, 100%, 35%);
+  --manatee: hsl(219, 100%, 78%);
+  --white: rgb(177, 223, 255);
+  --text-white: rgb(255, 255, 255);
+
+  --gradient: linear-gradient(to top, rgb(177, 223, 255), rgb(182, 224, 255));
 
   /**
    * typography
@@ -158,7 +182,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: hsla(219, 14%, 60%, 0.3);
+  background: hsla(219, 94%, 75%, 0.3);
   border: 2px solid var(--white);
 }
 
@@ -182,7 +206,7 @@ a {
 .btn {
   position: relative;
   background: var(--background, var(--carolina-blue));
-  color: var(--color, var(--white));
+  color: var(--color, var(--text-white));
   min-width: var(--width, 40px);
   min-height: var(--height, 40px);
   padding: 5px;
@@ -935,14 +959,10 @@ a {
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  background: var(--alice-blue-1);
-  outline: 2px solid var(--carolina-blue);
   border-radius: 10px;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  border-color: var(--alice-blue-1);
-  background: var(--carolina-blue);
   border-radius: 10px;
 }
 
